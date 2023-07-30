@@ -4,7 +4,7 @@ on:
     types: 
       - opened
     branches:
-      - main # main
+      - master # main
       - 'dev-*'    # dev-new or dev-new-this-is-new 
       - 'feat/**' # feat/new or feat/new/button
     paths-ignore:
@@ -12,7 +12,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main # main
+      - master # main
       - 'dev-*'    # dev-new or dev-new-this-is-new 
       - 'feat/**' # feat/new or feat/new/button
     paths-ignore:
