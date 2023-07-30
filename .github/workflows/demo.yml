@@ -44,7 +44,7 @@ jobs:
         #for windows command try later
         #run: find dist/assets/*.js -type f -execdir echo '{}' ';'
         #run: Get-ChildItem -Path 'D:\giHub\gitPractise\01 Starting Project\dist\assets\' -Include "*.js" -Recurse
-        #run: Get-ChildItem -Path '.\dist\assets\' -Include "*.js" -Recurse
+        #run: Get-ChildItem -Path '.\dist\assets\' -Include *.js -Recurse
 
       - name: Upload a Build Artifact
         uses: actions/upload-artifact@v3.1.2
