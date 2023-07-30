@@ -39,7 +39,7 @@ jobs:
         run: npm run build
       - name: Publish JS file name
         id: publist_1
-        run: find dist/assets/*.js -type f -execdir echo 'scripts-file={}' >> $GITHUB_OUTPUT ';
+        run: find dist/assets/*.js -type f -execdir echo 'scripts-file={}' >> $GITHUB_OUTPUT ';'
         #run: find dist/assets/*.js -type f -execdir echo '::set-output name=scripts-file::{}' >> $GITHUB_OUTPUT ';  # --> depricated
         #for windows command try later
         #run: find dist/assets/*.js -type f -execdir echo '{}' ';'
